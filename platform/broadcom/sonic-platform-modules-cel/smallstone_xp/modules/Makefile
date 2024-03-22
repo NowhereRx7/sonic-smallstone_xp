@@ -1,0 +1,1 @@
+obj-m := leds-dx010.o smallstone_xp_cpld.o
