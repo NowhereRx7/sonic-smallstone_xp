@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="platform\broadcom\sonic-platform-modules-cel\smallstone_xp\modules\leds-dx010.c" />
+    <ClCompile Include="platform\broadcom\sonic-platform-modules-cel\smallstone_xp\modules\smallstone_xp_cpld.c" />
+  </ItemGroup>
+</Project>

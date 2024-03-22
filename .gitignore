@@ -396,3 +396,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+platform/broadcom/sonic-platform-modules-cel/smallstone_xp/modules/dx010_cpld.c
