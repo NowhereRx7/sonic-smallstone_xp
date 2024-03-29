@@ -796,8 +796,7 @@ static int cel_smallstone_xp_lpc_drv_probe(struct platform_device* pdev)
 	int ret = 0;
 	int portid_count;
 
-	cpld_data = devm_kzalloc(&pdev->dev, sizeof(struct smallstone_xp_cpld_data),
-		GFP_KERNEL);
+	cpld_data = devm_kzalloc(&pdev->dev, sizeof(struct smallstone_xp_cpld_data), GFP_KERNEL);
 	if (!cpld_data)
 		return -ENOMEM;
 
@@ -868,7 +867,7 @@ void cel_smallstone_xp_lpc_exit(void)
 module_init(cel_smallstone_xp_lpc_init);
 module_exit(cel_smallstone_xp_lpc_exit);
 
-MODULE_AUTHOR("NowhereRx7 <nowhererx7@yahoo.com>");
+MODULE_AUTHOR("Travis Finster <nowhererx7@yahoo.com>");
 MODULE_VERSION("1.0.0");
 MODULE_DESCRIPTION("Celestica Smallstone XP CPLD Driver");
 MODULE_LICENSE("GPL");
